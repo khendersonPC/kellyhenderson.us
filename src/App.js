@@ -12,9 +12,9 @@ import Contact from "./pages/contact"
 function App() {
   return ( <Router>
     <div>
-      <CustomSideNav />
+      {/* <CustomSideNav /> */}
       {/* <Wrapper> */}
-        <Route exact path="/" component={Welcome} />
+        <Route exact path="/welcome" component={Welcome} />
         <Route exact path="/about" component={About} />
         <Route exact path="/projects" component={Projects} />
         <Route exact path="/resume" component={Resume} />

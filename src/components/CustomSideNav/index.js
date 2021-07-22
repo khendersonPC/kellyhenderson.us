@@ -8,7 +8,8 @@ import { SideNav, SideNavItem } from 'react-materialize';
 function CustomSideNav() {
   return (
 
-    <SideNav style={{background: "#011C40"}}>
+    //<SideNav style={{background: "#011C40"}}>
+    <SideNav style={{background: "#f15caf"}}>
       <div style = {{paddingTop: "50px", paddingBottom: "50px"}}>
       <a href= "welcome">
         <img src="images/IMG_300.jpg" width="200px" height="200px" alt="" style={{ display: "block", marginLeft: "auto", marginRight: "auto" }} />

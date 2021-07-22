@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 //import { Link, useParams } from "react-router-dom";
+import CustomSideNav from '../components/CustomSideNav';
 import ProjectCard from "../components/ProjectCard";
 import {
   Col,
@@ -12,6 +13,8 @@ import {
 
 function Projects(){
   return (
+    <div>
+    <CustomSideNav/>
     <div id="portfolio" style={{ backgroundColor: "#F2F7F7", paddingBottom: "5em", paddingLeft: "300px"}}>
     <div className="container">
         
@@ -51,6 +54,7 @@ function Projects(){
         </Row>
               
     </div>
+</div>
 </div>
     )
 }
