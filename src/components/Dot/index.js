@@ -3,13 +3,14 @@ import React from "react";
 import './style.css';
 import {motion} from 'framer-motion';
 
-function Dot() {
+function Dot(props) {
     return (
         <motion.button
+            style={{background: props.color}}
             whileHover = {{
                 scale: 1.25,
                 opacity:1,
-                backgroundColor: "#048ABF",
+                backgroundColor: props.hoverColor,
                 transition: { duration: 0.2 },
             }}
             
