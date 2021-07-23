@@ -8,8 +8,8 @@ function Dot(props) {
         <motion.button
             style={{background: props.color}}
             whileHover = {{
-                scale: 1.25,
-                opacity:1,
+                scale: 1.1,
+                // opacity:1,
                 backgroundColor: props.hoverColor,
                 transition: { duration: 0.2 },
             }}
